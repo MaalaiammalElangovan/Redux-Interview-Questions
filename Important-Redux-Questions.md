@@ -1,6 +1,7 @@
 🌲 What is Redux, and why is it used in React applications?
 
-    <a href="https://www.geeksforgeeks.org/what-are-the-advantages-of-using-redux-with-reactjs/"> Answer </a>
+    [Answer](https://www.geeksforgeeks.org/what-are-the-advantages-of-using-redux-with-reactjs/)
+
 
 🌲 Explain the core principles of Redux (Actions, Reducers, Store).
 
