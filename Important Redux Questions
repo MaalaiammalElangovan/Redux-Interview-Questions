@@ -1,0 +1,35 @@
+🌲 What is Redux, and why is it used in React applications?
+
+    Answer: Redux is a state management tool for JavaScript applications.
+    It is more commonly used with ReactJS but is also compatible with many other frameworks such as Angular, Vue, Preact, as well as vanilla JavaScript.
+    It is important to note that even though React and Redux are frequently used together, they are independent of each other!
+
+    Advantages of using Redux with React JS
+    Centralized state management system i.e. Store: React state is stored locally within a component. To share this state with other components in the application, props are passed to child components, or callbacks are used for parent components. Redux state, on the other hand, is stored globally in the store. All the components of the entire application can easily access the data directly. This centralizes all data and makes it very easy for a component to get the state it requires. So while developing large, complex applications with many components, the Redux store is highly preferred.
+    Performance Optimizations: By default, whenever a component is updated, React re-renders all the components inside that part of the component tree. In such a case when the data for a given component hasn’t changed, these re-renders are wasted (cause the UI output displayed on the screen would remain the same). Redux store helps in improving the performance by skipping such unnecessary re-renders and ensuring that a given component re-renders only when its data has actually changed.
+    Pure reducer functions: A pure function is defined as any function that doesn’t alter input data, doesn’t depend on the external state, and can consistently provide the same output for the same input. As opposed to React, Redux depends on such pure functions. It takes a given state (object) and passes it to each reducer in a loop. In case of any data changes, a new object is returned from the reducer (re-rendering takes place). However, the old object is returned if there are no changes (no re-rendering).
+    Storing long-term data: Since data stored in redux persists until page refresh, it is widely used to store long-term data that is required while the user navigates the application, such as, data loaded from an API, data submitted through a form, etc. On the other hand, React is suitable for storing short-term data that is likely to change quickly (form inputs, toggles, etc.)
+    Time-travel Debugging: In React, it becomes a tedious task to track the state of the application during the debugging process. Redux makes debugging the application an easy process. Since it represents the entire state of an application at any given point in time, it is widely used for time-travel debugging. It can even send complete error reports to the server!
+    Great supportive community Since redux has a large community of users, it becomes easier to learn about best practices, get help when stuck, reuse your knowledge across different applications. Also, there are a number of extensions for redux that help in simplifying the code logic and improving the performance.
+
+🌲 Explain the core principles of Redux (Actions, Reducers, Store).
+🌲 What is a Redux Store? How is it different from React component state?
+🌲 Describe the flow of data in a Redux application.
+🌲 Why is immutability important in Redux, and how is it achieved?
+🌲 What are Redux Actions and Action Creators?
+🌲 Explain the role of Reducers in Redux.
+🌲 What is a Redux Selector? Why and when would you use it?
+🌲 Discuss the difference between Redux Thunk and Redux Saga for handling async actions.
+🌲 What is a Redux Middleware? Provide examples of commonly used middlewares.
+🌲 Explain the purpose of a middleware like redux-thunk in Redux.
+🌲 How does a middleware handle actions in the Redux flow?
+🌲 What are the main features of Redux Toolkit?
+🌲 Explain the concept of 'slices' in Redux Toolkit.
+🌲 Why might someone prefer using RTK over traditional Redux?
+🌲 Discuss the benefits of using createSlice() in Redux Toolkit.
+🌲 How does RTK simplify the Redux setup compared to traditional Redux?
+🌲 Discuss the concept of Redux state normalization and its advantages.
+🌲 Explain the idea of time-travel debugging with Redux DevTools.
+🌲 How does memoization play a role in Redux selectors for performance optimization?
+🌲 Discuss the potential drawbacks of overusing Redux in small to medium-sized applications.
+🌲 Explain the differences between action creators and action types in Redux.
