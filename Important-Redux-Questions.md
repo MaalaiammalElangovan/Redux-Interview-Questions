@@ -29,6 +29,9 @@ console.log(this.name);
 
 #### Option: A
 
+[Answer](https://www.geeksforgeeks.org/what-are-the-advantages-of-using-redux-with-reactjs/)
+
+
 </p>
 </details>
 
@@ -177,6 +180,7 @@ setTimeout(func, 1000);
 <p>
 
 #### Option: C
+
 
 </p>
 </details>
