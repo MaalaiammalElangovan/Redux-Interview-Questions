@@ -24,39 +24,11 @@
 
 <li>
 
-**What is the output ?**
+**What is a Redux Store? How is it different from React component state??**
 
-```JS
-const animal = {
-  animal_name: "cat",
-  action: function () {
-    console.log(`${this.animal_name} is doing action`);
-  }
-};
-
-setTimeout(animal.action, 1000);
-
-```
-
-- A: `cat is doing action`
-- B: `undefined is doing action`
-- C: `null is doing action`
-- D: `error`
-
-<br/>
-
-<details>
-<summary><b>Answer</b></summary>
-<p>
-
-#### Option: B
-
-</p>
-</details>
+[Answer](https://medium.com/netscape/component-state-vs-redux-store-1eb0c929277)
 
 </li>
-
----
 
 <li>
 
